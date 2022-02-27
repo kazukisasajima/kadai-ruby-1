@@ -1,11 +1,7 @@
-last_name ="笹嶋"
+last_name = "笹嶋"
 
-first_nama ="一揮"
+first_nama = "一揮"
 
-age = "24歳"
+age = 24
 
-str ="です。"
-
-result = last_name + first_nama + str + age + str
-
-puts result
+puts  last_name + first_nama + "です。" + age.to_s + "歳です。"
